@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <limits>
 
-using namespace std;
+using namespace std; 
 
 // ============================= CLASS DEFINITIONS =============================
 
@@ -57,7 +57,7 @@ public:
     vector<Post> posts;
     vector<Notification> notifications;
     vector<string> friendRequests;
-    map<string, vector<string>> inbox; // messages received
+    map<string, vector<string>> inbox;  // messages received. 
 
     User() {}
     User(string fn, string un, string pw, string db, string clg, string addr)
